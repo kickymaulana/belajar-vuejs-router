@@ -26,9 +26,24 @@ const router = createRouter({
       sensitive: true,
     },
     {
+      path: "/home",
+      redirect: "/",
+    },
+    {
       path: "/products/search",
       component: ProductSearch,
       name: "product-search",
+    },
+    {
+      path: "/products/search/:keyword",
+      redirect: (route) => {
+        return {
+          name: "product-search",
+          query: {
+            product: route.params.keyword,
+          },
+        };
+      },
     },
     {
       path: "/products/:id(\\d+)?",
