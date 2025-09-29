@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "price": 8500000
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "price": 4500000
+  },
+  {
+    "id": 3,
+    "name": "Tablet",
+    "price": 3200000
+  },
+  {
+    "id": 4,
+    "name": "Headphone",
+    "price": 750000
+  },
+  {
+    "id": 5,
+    "name": "Smartwatch",
+    "price": 1500000
+  },
+  {
+    "id": 6,
+    "name": "Keyboard Mechanical",
+    "price": 600000
+  },
+  {
+    "id": 7,
+    "name": "Mouse Wireless",
+    "price": 350000
+  },
+  {
+    "id": 8,
+    "name": "Monitor 24 Inch",
+    "price": 2100000
+  },
+  {
+    "id": 9,
+    "name": "Printer Inkjet",
+    "price": 1750000
+  },
+  {
+    "id": 10,
+    "name": "External Hard Drive 1TB",
+    "price": 1200000
+  }
+]
